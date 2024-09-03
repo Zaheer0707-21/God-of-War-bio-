@@ -5,7 +5,7 @@
     margin: 0%;
    }
 .headingdiv{
-    display: inline-block;
+    
 }
  .heading_img{
 height: 80px;
@@ -14,30 +14,25 @@ float: left;
 display: inline-block
 
  }
- .heading_var{
-    display: inline-block;
+ 
+ .list{
+  display: flex;
+  flex-direction: row;
+  font-size: larger;
+  justify-content: space-around;
+  color: rgb(199, 104, 104);
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
  }
- .heading_ul{
-    display: inline-block;
-    margin-left: 100px;
-    margin-top: 50px;
-    
-    
+ 
+ 
+ 
 
- }
- li{
    
-    color: rgb(199, 104, 104);
-   margin-left: 40px;
-    padding: 30px;
-    font-size: larger;
-    display: inline;
-    cursor: pointer;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- }
   
   .intro{
+    text-align: center;
     
 
   }
@@ -45,7 +40,7 @@ display: inline-block
      
   
    .intro_h1{
-    text-align: center;
+
     color: rgb(199, 104, 104);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -55,11 +50,13 @@ display: inline-block
 
   }
   .series{
-    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    
   }
   .series_h1{
     color: rgb(199, 104, 104);
-    margin-left: 340px;
+     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .one{
@@ -204,8 +201,8 @@ display: inline-block
     border-color:rgb(162, 238, 238); ;
   }
   .series_2{
-    display: inline-block;
-    margin-left: 150px;
+    display: flex;
+    justify-content: center;
    
 
   }
